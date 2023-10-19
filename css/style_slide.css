@@ -8362,3 +8362,52 @@
       opacity: 0;
     }
   }
+
+  /* animation */
+.blink {
+  animation-name: blink;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: blink;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-name: blink;
+  -ms-animation-duration: 1.5s;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-iteration-count: infinite;
+}
+@keyframes blink{
+0% {
+      opacity: 0.1;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0.1;
+  }
+}
+@-ms-keyframes blink{
+0% {
+      opacity: 0.1;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0.1;
+  }
+}
+@-webkit-keyframes blink{
+0% {
+      opacity: 0.1;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0.1;
+  }
+}
