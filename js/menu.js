@@ -17,7 +17,7 @@ menu.innerHTML = `
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="../index.html" ><span>호관원 프리미엄</span></a></h1>
+        <h1 class="text-light"><a href="../index.html" ><span>미즈케어</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="./intro/img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
